@@ -1,0 +1,12 @@
+.place__link{
+    grid-area: button;
+    width: 248px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.22;
+}

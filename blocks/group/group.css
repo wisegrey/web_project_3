@@ -1,0 +1,10 @@
+.group{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    grid-area: cover;
+    z-index: 2;
+}

@@ -4,5 +4,6 @@
     align-self: center;
     justify-self: center;
     align-items: center;
+    max-width: 987px;
     margin: 0 auto;
 }

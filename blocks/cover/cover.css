@@ -1,0 +1,16 @@
+.cover{
+    background: url(../../images/visitus__background.png) no-repeat center;
+    width: 100%;
+    max-width: 1184px;
+    max-height: 740px;
+    margin: 92px auto 0;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    ". . ."
+    ". cover ."
+    ". . .";
+    z-index: 0;
+}
