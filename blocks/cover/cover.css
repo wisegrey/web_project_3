@@ -5,6 +5,7 @@
     max-height: 740px;
     margin: 92px auto 0;
     background-size: cover;
+    display: -ms-grid;
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: 1fr 1fr 1fr;
@@ -14,3 +15,17 @@
     ". . .";
     z-index: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .cover {
+      max-width: 768px;
+      margin: 92px 0 0;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .cover {
+      max-width: 320px;
+      margin: 64px 0 0;
+    }
+  }
