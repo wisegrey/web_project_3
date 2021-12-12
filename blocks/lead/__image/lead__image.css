@@ -1,4 +1,6 @@
 .lead__image{
     margin-top: 64px;
     max-width: 100%;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(1);
 }
