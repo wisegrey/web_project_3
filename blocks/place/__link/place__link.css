@@ -10,3 +10,9 @@
     font-size: 18px;
     line-height: 1.22;
 }
+
+@media screen and (max-width: 320px) {
+    .place__link {
+      width: 288px;
+    }
+  }
