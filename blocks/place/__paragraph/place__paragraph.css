@@ -6,3 +6,11 @@
     color: #ffffff;
     margin: 0 0 25px;
 }
+
+@media screen and (max-width: 320px) {
+    .place__paragraph {
+       max-width: 318px;
+       height: 318px;
+       margin-left: 1.2%;
+      }
+  }

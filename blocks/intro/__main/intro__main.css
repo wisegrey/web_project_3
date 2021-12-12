@@ -1,4 +1,17 @@
-.intro__text-small{
+.intro__main{
     font-size: 16px;
     line-height: 1.63;
 }
+
+@media screen and (max-width: 768px) {
+    .intro__main {
+      margin-left: 2%;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+      .intro__main {
+        line-height: 1.25;
+        margin-left: 2%;
+    }
+  }

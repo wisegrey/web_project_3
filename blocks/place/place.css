@@ -2,8 +2,8 @@
     max-width: 984px;
     display: -ms-grid;
     display: grid;
-    grid-template-columns: 460px minmax(484px, 456px);
-    grid-template-rows: min-content 460px min-content;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content min-content 1fr;
     grid-template-areas:
       "title website"
       "image paragraph"
@@ -14,16 +14,14 @@
 
 @media screen and (max-width: 768px) {
   .place {
-    grid-template-columns: 340px minmax(316px, 352px);
-    grid-template-rows: min-content 340px min-content;
     grid-gap: 46px 28px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place {
-    grid-template-columns: minmax(288px, 320px);
-    grid-template-rows: min-content min-content 320px min-content min-content min-content;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     grid-template-areas:
       "title"
       "website"

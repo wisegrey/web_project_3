@@ -7,3 +7,9 @@
     color: #AAAAAA;
     margin-bottom: 8px;
 }
+
+@media screen and (max-width: 320px) {
+    .place__heading {
+       margin-left: 1.2%;
+      }
+  }

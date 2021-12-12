@@ -6,8 +6,15 @@
     margin-left: 0;
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 768px) {
+  .intro__text {
+    margin-left: 2%;
+  }
+}
+
+@media screen and (max-width: 320px) {
     .intro__text {
       line-height: 1.25;
+      margin-left: 2%;
     }
 }
