@@ -11,10 +11,9 @@
     line-height: 1.22;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 666px) {
     .place__link {
       width: 288px;
-      margin-top: 5px;
-      margin-left: 1.2%;
+      margin: 30px 16px 0;
     }
   }

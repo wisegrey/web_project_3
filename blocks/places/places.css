@@ -5,5 +5,17 @@
     justify-self: center;
     align-items: center;
     max-width: 987px;
-    margin: 0 auto;
+    margin: 92px 148px 0 145px;
 }
+
+@media screen and (max-width: 768px) {
+    .places {
+      margin: 88px 24px 0;
+    }
+  }
+  
+  @media screen and (max-width: 666px) {
+    .places {
+      margin: 46px 0 0;
+    }
+  }

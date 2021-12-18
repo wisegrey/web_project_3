@@ -3,18 +3,20 @@
     font-size: 24px;
     line-height: 1.41;
     text-align: left;
-    margin-left: 0;
+    max-width: 720px;
+    margin: 40px 65px 10px 0;
 }
 
 @media screen and (max-width: 768px) {
   .intro__text {
-    margin-left: 2%;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
 @media screen and (max-width: 320px) {
     .intro__text {
+      max-width: 288px;
       line-height: 1.25;
-      margin-left: 2%;
-    }
+  }
 }

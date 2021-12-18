@@ -9,16 +9,22 @@
       "image paragraph"
       "button paragraph";
     grid-gap: 48px 40px;
-    margin: 92px auto 0;
+    margin: 80px 0 0;
+}
+
+.place:first-of-type{
+  margin-top: 0;
 }
 
 @media screen and (max-width: 768px) {
   .place {
     grid-gap: 46px 28px;
+    max-width: 720px;
+    margin: 72px 24px 0;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 666px) {
   .place {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -30,5 +36,12 @@
       "paragraph"
       "button";
     grid-gap: 30px 0;
+    margin: 50px 0 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    grid-gap: 0 0;
   }
 }
