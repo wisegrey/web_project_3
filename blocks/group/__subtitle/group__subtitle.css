@@ -9,4 +9,11 @@
 }
 
 
-
+@media screen and (max-width: 560px) {
+    .group__subtitle{
+      max-width: 200px;
+      margin: 16px auto;
+      font-size: 14px;
+      line-height: 1.14;
+    }
+  }

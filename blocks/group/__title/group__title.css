@@ -7,3 +7,11 @@
     color: #fffdfd;
     margin: 0;
 }
+
+  
+  @media screen and (max-width: 560px) {
+    .group__title{
+      font-size: 32px;
+      line-height: 1.09;
+    }
+  }

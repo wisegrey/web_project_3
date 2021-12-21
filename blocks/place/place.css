@@ -20,7 +20,7 @@
   .place {
     grid-gap: 46px 28px;
     max-width: 720px;
-    margin: 72px 24px 0;
+    margin: 72px 0 0;
   }
 }
 

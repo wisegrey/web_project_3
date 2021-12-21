@@ -1,5 +1,5 @@
 .lead__image{
-    margin-top: 64px;
+    margin: 64px auto 0;
     max-width: 100%;
     -webkit-filter: grayscale(100%);
     filter: grayscale(1);
@@ -7,12 +7,12 @@
 
 @media screen and (max-width: 768px) {
     .lead__image {
-      margin-top: 36px;
+      margin: 36px auto 0;
     }
 }
 
 @media screen and (max-width: 320px) {
     .lead__image {
-      margin-top: 40px;
+      margin: 40px 0 0;
     }
 }
